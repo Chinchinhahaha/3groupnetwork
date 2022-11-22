@@ -1,0 +1,269 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.104.2">
+	<meta name="keywords" content="classic,apparel,Fashion,Outfit,luxury,Accessories,boutique,promotion,discount,design">
+    <title>Carousel Template · Bootstrap v5.2</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.2/examples/carousel/">
+
+    
+
+    
+
+<link href="bootstrap.min.css" rel="stylesheet">
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+
+      .b-example-divider {
+        height: 3rem;
+        background-color: rgba(0, 0, 0, .1);
+        border: solid rgba(0, 0, 0, .15);
+        border-width: 1px 0;
+        box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+      }
+
+      .b-example-vr {
+        flex-shrink: 0;
+        width: 1.5rem;
+        height: 100vh;
+      }
+
+      .bi {
+        vertical-align: -.125em;
+        fill: currentColor;
+      }
+
+      .nav-scroller {
+        position: relative;
+        z-index: 2;
+        height: 2.75rem;
+        overflow-y: hidden;
+      }
+
+      .nav-scroller .nav {
+        display: flex;
+        flex-wrap: nowrap;
+        padding-bottom: 1rem;
+        margin-top: -1px;
+        overflow-x: auto;
+        text-align: center;
+        white-space: nowrap;
+        -webkit-overflow-scrolling: touch;
+      }
+    </style>
+
+    
+    <!-- Custom styles for this template -->
+    <link href="carousel.css" rel="stylesheet">
+  </head>
+  <body>
+    
+<header>
+  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">系草經典服飾</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav me-auto mb-2 mb-md-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="https://chinchinhahaha.github.io/20221012asdwafd/">首頁</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="https://m.momoshop.com.tw/category.momo?cn=2134500003&cateLevel=2&sourcePageType=4&imgSH=fourCardType&sortType=6">商品分類</a>
+          </li>
+		  <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="https://www.boy2shop.com/Shop/HotSaleRanking/62?period=Weekly&IsHttpsTest=true">最新促銷</a>
+          </li> 
+		  <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="https://www.boy2shop.com/Shop/HotSaleRanking/62?period=Weekly&IsHttpsTest=true">最新單品</a>
+          </li>
+		  <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="https://www.boy2shop.com/Shop/HotSaleRanking/62?period=Weekly&IsHttpsTest=true">現貨特賣</a>
+          </li> 
+		  <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="https://play.google.com/store/games?utm_source=apac_med&utm_medium=hasem&utm_content=Oct0121&utm_campaign=Evergreen&pcampaignid=MKT-EDR-apac-tw-1003227-med-hasem-py-Evergreen-Oct0121-Text_Search_BKWS-BKWS%7CONSEM_kwid_43700074275690632_creativeid_541258267858_device_c&gclid=EAIaIQobChMIq7H7_JvC-wIV3L2WCh2NBQn7EAAYASAAEgKlfvD_BwE&gclsrc=aw.ds" target="_blank">APP會員獨享</a>
+          </li>
+		  <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="https://www.boy2shop.com/Shop/HotSaleRanking/62?period=Weekly&IsHttpsTest=true">熱銷Top1</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+</header>
+
+<main>
+
+  <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
+
+        <div class="container">
+          <div class="carousel-caption text-start">
+            <h1>下載獨家APP 享會員特惠</h1>
+            <p>會員專屬！新品率先預定，讓你享受尊貴不凡</p>
+            <p><a class="btn btn-lg btn-primary" href="https://play.google.com/store/games?utm_source=apac_med&utm_medium=hasem&utm_content=Oct0121&utm_campaign=Evergreen&pcampaignid=MKT-EDR-apac-tw-1003227-med-hasem-py-Evergreen-Oct0121-Text_Search_BKWS-BKWS%7CONSEM_kwid_43700074275690632_creativeid_541258267858_device_c&gclid=EAIaIQobChMIq7H7_JvC-wIV3L2WCh2NBQn7EAAYASAAEgKlfvD_BwE&gclsrc=aw.ds" target="_blank">立即下載</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
+		<img src="20211012115056-7f1e69ee.jpg">
+
+        <div class="container">
+          <div class="carousel-caption">
+            <h1>秋冬質感上衣 冬季服飾火熱上市</h1>
+            <p>連帽外套、質感上衣 這個冬天的時尚，由你定義！</p>
+            <p><a class="btn btn-lg btn-primary" href="https://www.elle.com/tw/fashion/street-snap/a24420054/taipei101-201811white/" target="_blank">立即搶購</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
+
+        <div class="container">
+          <div class="carousel-caption text-end">
+            <h1>雙12購物狂歡 48小時快閃</h1>
+            <p>12/12-12/14 全館免運大放送 限量500名</p>
+            <p><a class="btn btn-lg btn-primary" href="https://shopee.tw/m/shopee-mall-sale#fsv" target="_blank">立即領取優惠</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+
+  <!-- Marketing messaging and featurettes
+  ================================================== -->
+  <!-- Wrap the rest of the page in another container to center all the content. -->
+
+  <div class="container marketing">
+
+    <!-- Three columns of text below the carousel -->
+    <div class="row">
+      <div class="col-lg-4">
+		<img src="111.jpg">
+
+        <h2 class="fw-normal">Philopator</h2>
+		<p>服裝設計師</p>
+        <p>Philopator是一位非常有才華的設計師，學生時代留學法國，參與時裝展覽並獲得多項肯定。在服飾設計上展現獨特風格。</p>
+        <p><a class="btn btn-secondary" href="https://www.pinterest.com/" target="_blank">查看設計師作品 &raquo;</a></p>
+      </div><!-- /.col-lg-4 -->
+      <div class="col-lg-4">
+            <img src="222.jpg">
+
+        <h2 class="fw-normal">Jessica Lee</h2>
+		<p>服裝設計總監</p>
+        <p>Jessica大學畢業於國際頂級服裝設計名校，後到義大利主修精品設計。她所設計服飾皆風靡於廣大年輕族群。</p>
+          <p><a class="btn btn-secondary" href="https://www.pinterest.com/" target="_blank">查看設計師作品 &raquo;</a></p>
+      </div><!-- /.col-lg-4 -->
+      <div class="col-lg-4">
+            <img src="333.jpg">
+
+        <h2 class="fw-normal">Elie</h2>
+		<p>服裝設計師</p>
+        <p>Elie在加入系草服飾前，已是日本知名設計師。曾在各大品牌任職，業界經驗十分豐富，專精潮牌設計。</p>
+          <p><a class="btn btn-secondary" href="https://www.pinterest.com/" target="_blank">查看設計師作品 &raquo;</a></p>
+      </div><!-- /.col-lg-4 -->
+    </div><!-- /.row -->
+
+
+    <!-- START THE FEATURETTES -->
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7">
+        <h2 class="featurette-heading fw-normal lh-1">If you don’t daydream your  <span class="text-muted">life is a nightmare.</span></h2>
+        <p class="lead">此款由Philopator設計的經典毛料皮衣，以功能性為主打，嚴選上品毛料製作。走的是略顯復古的經典的風格，搭配Jessica Lee設計的精品項鍊，凸顯了人們對於穿著的講究與沉穩的態度。</p>
+      </div>
+      <div class="col-md-5">
+        <img src="444.jpg">
+		
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7 order-md-2">
+        <h2 class="featurette-heading fw-normal lh-1">You can never please  <span class="text-muted"> everyone, and I think it's best not to.</span></h2>
+        <p class="lead">「我喜歡有缺陷的美，不完美並不代表醜陋，而是完美實在...太容易令人感到無聊。」這是Jessica時常掛在嘴邊的一句話。作為精品設計師，她不追求產品視覺上的極致，而是渴求在不完美中尋找極致美學。她設計的配件凸顯了不凡，運用高成本的極致工藝，無瑕地體現工藝家的匠心精神。</p>
+      </div>
+      <div class="col-md-5 order-md-1">
+          <center><img src="666.jpg" width="100%" height="100%"></center>
+
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7">
+        <h2 class="featurette-heading fw-normal lh-1">Show it and  <span class="text-muted">stand out!</span></h2>
+        <p class="lead">此款皮靴出自日本知名設計師Elie之手，以英式經典風格設計。在設計中她借鑒了中世紀西歐貴族的各式圖騰體現在此單品內，運用貴族圖騰象徵穿戴者身分的不凡和獨特風貌。</p>
+      </div>
+      <div class="col-md-5">
+        <img src="555.jpg">
+
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <!-- /END THE FEATURETTES -->
+
+  </div><!-- /.container -->
+
+
+  <!-- FOOTER -->
+  <footer class="container">
+    <p class="float-end"><a href="#">Back to top</a></p>
+    <p>&copy; 2017–2022 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+  </footer>
+</main>
+
+
+    <script src="bootstrap.bundle.min.js"></script>
+
+      
+  </body>
+</html>
